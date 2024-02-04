@@ -23,7 +23,7 @@
                     Console.WriteLine("Genre: " + AspectsOfBooks.Genres.bookGenre[i]);
                     Console.WriteLine("Price of the book: " + AspectsOfBooks.Prices.bookPrice[i]);
 
-                    if (AspectsOfBooks.Stock.inStock[i])
+                    if (AspectsOfBooks.Stock.inStock[i] == "true")
                     {
                         inWarehouse = "Yes!";
                     }

@@ -34,7 +34,7 @@
                     Console.WriteLine("Genre: " + AspectsOfBooks.Genres.bookGenre[i]);
                     Console.WriteLine("Price of the book: " + AspectsOfBooks.Prices.bookPrice[i]);
 
-                    if (AspectsOfBooks.Stock.inStock[i])
+                    if (AspectsOfBooks.Stock.inStock[i] == "true")
                     {
                         inWarehouse = "Yes!";
                     }
@@ -103,7 +103,7 @@
                 {
                     if (bookGenre == AspectsOfBooks.Genres.bookGenre[i])
                     {
-                        if (AspectsOfBooks.Stock.inStock[i])
+                        if (AspectsOfBooks.Stock.inStock[i] == "true")
                         {
                             Console.WriteLine();
                             Console.WriteLine("These Books are in stock:");
@@ -123,7 +123,7 @@
                 {
                     if (bookGenre == AspectsOfBooks.Genres.bookGenre[i])
                     {
-                        if (!AspectsOfBooks.Stock.inStock[i])
+                        if (AspectsOfBooks.Stock.inStock[i] != "true")
                         {
                             Console.WriteLine();
                             Console.WriteLine("These Books are NOT in stock:");

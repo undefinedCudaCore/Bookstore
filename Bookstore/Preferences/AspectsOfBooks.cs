@@ -65,17 +65,17 @@
 
         internal class Stock
         {
-            internal static bool[] inStock =
-                { true,
-                    false,
-                    true,
-                    false,
-                    true,
-                    true,
-                    true,
-                    true,
-                    true,
-                    false };
+            internal static string[] inStock =
+                { "true",
+                    "false",
+                    "true",
+                    "false",
+                    "true",
+                    "true",
+                    "true",
+                    "true",
+                    "true",
+                    "false" };
         }
     }
 }
