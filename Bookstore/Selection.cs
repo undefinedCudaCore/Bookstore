@@ -45,11 +45,11 @@ namespace Bookstore
                     break;
 
                 case "5":
-                    Console.WriteLine();
+                    AddNewBook.AddABook();
                     break;
 
                 case "6":
-                    Console.WriteLine();
+                    RemoveBook.RemoveABook();
                     break;
 
                 default:

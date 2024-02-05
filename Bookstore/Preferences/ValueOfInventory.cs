@@ -8,7 +8,7 @@
         {
             for (int i = 0; i < AspectsOfBooks.Titles.bookTitle.Length; i++)
             {
-                if (AspectsOfBooks.Stock.inStock[i])
+                if (AspectsOfBooks.Stock.inStock[i] == "true")
                 {
                     sumOfBooksInInventory += double.Parse(AspectsOfBooks.Prices.bookPrice[i].Substring(1));
                 }
